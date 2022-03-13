@@ -21,4 +21,4 @@ Bootstrap 4. Available on: [Bootstrap 4 CDN](https://getbootstrap.com/docs/4.6/g
 
 Font Awesome. Available on: [Font Awesome CDN](https://fontawesome.com/docs/web/setup/use-kit)
 
-
+Quotes API by Martin Svoboda. Available on: [Quotes API](https://rapidapi.com/martin.svoboda/api/quotes15/)
