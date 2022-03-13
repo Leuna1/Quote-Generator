@@ -1,0 +1,110 @@
+body {
+  overflow: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.theme-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: #FFFFFF88;
+  z-index: 15;
+}
+
+.theme-btn {
+  height: 40px;
+  width: 40px;
+  border: 3px solid white;
+  outline: 1px solid black;
+  margin-right: 1rem;
+}
+
+.bg-gradient {
+  background-image: linear-gradient(30deg, #1a2a6c, #b21f1f, #fdbb2d);
+  min-height: 100vh;
+  background-size: 300% 300%;
+  background-position: 0% 50%;
+  animation: gradient 20s ease infinite;
+}
+
+#text {
+  font-weight: bold;
+}
+
+#author {
+  font-weight: normal;
+}
+
+#quote-box {
+  z-index: 15;
+  max-width: 500px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, .8);
+}
+
+.dot-bg {
+  position: absolute;
+  z-index: 10;
+  min-height: 100%;
+  min-width: 100%;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+  background-position: center;
+}
+
+.dot-bg.small {
+  background-image: radial-gradient(80px circle, #FFFFFF44 50%, transparent 51%);
+  top: 25%;
+  right: -35%;
+  animation: circles 10s ease infinite;
+}
+
+.dot-bg.big {
+  background-image: radial-gradient(160px circle, #FFFFFF44 50%, transparent 51%);
+  top: -20%;
+  left: -40%;
+  animation: circles 15s ease infinite;
+}
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%x;
+  }
+}
+
+@keyframes circles {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
